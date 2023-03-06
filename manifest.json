@@ -1,27 +1,22 @@
 {
-    "manifest_version": 3,
+  "manifest_version": 3,
   
-    "name": "The website text editor",
-    "description": "Make any website text editable!",
-    "version": "3.0",
-    "icons": [
-      {
-        "src": "logo.png",
-        "sizes": "16x16",
-        "type": "image/png"
-      },
-    ],
+  "name": "The website text editor",
+  "description": "Make any website text editable!",
+  "version": "3.0",
+  "icons": {
+    "16": "logo.png"
+  },
   
-    "content_scripts": [
-      {
-        "matches": ["<all_urls>"],
-        "js": ["content.js"]
-      }
-    ],
-  
-    "action": {
-      "default_icon": "assets/img/icon.png",
-      "default_popup": "popup.html"
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
     }
-  }
+  ],
   
+  "browser_action": {
+    "default_icon": "assets/img/icon.png",
+    "default_popup": "popup.html"
+  }
+}

@@ -14,8 +14,7 @@
       "js": ["content.js"]
     }
   ],
-  
-  "browser_action": {
+"action": {
     "default_icon": "assets/img/icon.png",
     "default_popup": "popup.html"
   }

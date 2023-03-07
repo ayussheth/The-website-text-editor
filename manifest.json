@@ -3,7 +3,7 @@
   
   "name": "The website text editor",
   "description": "Make any website text editable!",
-  "version": "3.0",
+  "version": "1.0",
   "icons": {
     "16": "logo.png"
   },
